@@ -1,0 +1,33 @@
+main {
+  min-height: 85vh;
+}
+
+.home {
+  min-height: 80vh;
+  color: red;
+  position: relative;
+  background: url("./images/main.jpg") no-repeat 20% 20% / cover;
+}
+
+img {
+  width: 100%;
+}
+
+.dark-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+}
+
+.form-container {
+  width: 400px;
+  margin: auto;
+}
